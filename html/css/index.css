@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%; /* 将高度设置为100% */
+}
+
+
+.header {
+  padding: 10px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: background-color 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  z-index: 999;
+}
+
+.header-scroll {
+  background-color: rgba(194, 40, 40, 0.795);
+  padding: 15px;
+}
+
+.header-scroll .logo {
+  transform: translateY(0px);
+}
+
+.header-scroll .logo img {
+  margin-top: -5px;
+  width: 165px;
+  height: 40px;
+}
+
+.header-scroll .logo h1 {
+  font-size: 20px;
+}
+
+.header-scroll .nav a {
+  margin-left: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.logo img {
+  width: 170px;
+  height: 45px;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 15px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+
+
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -30px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgb(245, 243, 243);
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.owl-carousel {
+  position: relative;
+  height: 100%;
+  margin-top: 0; /* 将 margin-top 设置为0 */
+}
+
+
+.owl-carousel .item {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.owl-carousel .item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.owl-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #888;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.owl-dot.active {
+  background-color: #333;
+}
+
+.owl-carousel .item .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(75, 71, 71, 0.596);
+  height: 30%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .item .overlay .content {
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.owl-carousel .item .content {
+  text-align: center;
+  color: #fff;
+}
+
+.owl-carousel .item .content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.owl-carousel .item .content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.owl-carousel .item .content .contact-btn {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.owl-carousel .item .content .contact-btn:hover {
+  background-color: #b30000;
+}
+
+.footer {
+  background-color: #F8F8F8;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-row {
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: red;
+}
+
+.footer-icon-link {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer-icon-link i {
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-icon-link:hover i {
+  color: red;
+}
+
+.footer-icon-link:hover svg path {
+  fill: rgba(194, 40, 40);
+}
