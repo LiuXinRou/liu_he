@@ -91,6 +91,7 @@ body {
   position: relative;
   height: 100%;
   margin-top: 0; /* 将 margin-top 设置为0 */
+  
 }
 
 
@@ -103,11 +104,11 @@ body {
 
 .owl-carousel .item img {
   position: absolute;
-  top: 50%;
   left: 50%;
+  top:50%;
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  height:auto;
+  max-width: 100%;
 }
 
 .owl-dots {
@@ -134,7 +135,7 @@ body {
 .owl-carousel .item .overlay {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%;  /*更改 從50到35*/
   transform: translate(-50%, -50%);
   background-color: rgba(75, 71, 71, 0.596);
   height: 30%;
@@ -219,4 +220,11 @@ body {
 
 .footer-icon-link:hover svg path {
   fill: rgba(194, 40, 40);
+}
+
+.about
+{
+  color: red;
+  left: 15%;
+  position: relative;
 }
