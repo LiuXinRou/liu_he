@@ -183,6 +183,49 @@ body {
   background-color: #b30000;
 }
 
+.buyandsell p
+{
+  color: #f60f0f;
+  padding-left: 20%;
+  font-weight: bolder;
+  font-size: 13px;
+  text-align: center;
+}
+.buyandsell h2
+{
+  color: #000;
+  font-weight: bolder;
+  padding-left: 20%;
+  font-size: 36px;
+  text-align: center;
+}
+.buyandsell h6
+{
+  padding-left: 20%;
+  text-align: center;
+}
+
+.buyandsell hr
+{
+  font-family: Avenir, sans-serif; 
+  border-right-width: 0px; 
+  border-bottom-width: 0px; 
+  border-left-width: 0px; 
+  border-top-style: solid; 
+  border-top-color: rgb(234, 234, 234); 
+  height:1px; 
+  width: 120%;
+  margin: 1em 0px; 
+  padding: 0px; 
+  color: rgb(51, 51, 51); 
+  font-size: 17px; 
+  white-space: normal;
+ 
+  
+}
+
+
+
 .footer {
   background-color: #F8F8F8;
   padding: 20px;
