@@ -183,7 +183,7 @@ body {
   background-color: #b30000;
 }
 
-.buyandsell p
+.buyandsell p /*英文字*/
 {
   color: #f60f0f;
   padding-left: 20%;
@@ -191,7 +191,7 @@ body {
   font-size: 13px;
   text-align: center;
 }
-.buyandsell h2
+.buyandsell h2 /*中文字*/
 {
   color: #000;
   font-weight: bolder;
@@ -199,13 +199,13 @@ body {
   font-size: 36px;
   text-align: center;
 }
-.buyandsell h6
+.buyandsell h6 /*文章內容*/
 {
   padding-left: 20%;
   text-align: center;
 }
 
-.buyandsell hr
+.buyandsell hr /*灰色底線*/
 {
   font-family: Avenir, sans-serif; 
   border-right-width: 0px; 
@@ -220,12 +220,15 @@ body {
   color: rgb(51, 51, 51); 
   font-size: 17px; 
   white-space: normal;
- 
-  
 }
 
+.buyandsell img{
+  margin-left: 25%;
+}
 
-
+.buyandsell  h3{
+  font-size: 24px;
+}
 .footer {
   background-color: #F8F8F8;
   padding: 20px;
