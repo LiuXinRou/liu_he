@@ -222,13 +222,117 @@ body {
   white-space: normal;
 }
 
-.buyandsell img{
-  margin-left: 25%;
+.buyandsell img{ /*車子圖片*/
+  margin-left: 45%;
+  margin-right: 5%;
+ 
 }
 
-.buyandsell  h3{
+.buyandsell  h3{ /*車子旁邊文字*/
   font-size: 24px;
+  margin-bottom: 10%;
+  font-weight: bolder;
+  color: red;
 }
+
+.buyer /*灰色色塊*/
+{
+width:150px;
+height:150px;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 5%;
+}
+
+.buyer h6
+{
+  padding: 5%;
+}
+.buyandsellpic img{ /*中間圖片*/
+    margin-left: 35%;
+    margin-top: -30%;
+    
+}
+.seller{  /*灰色色塊*/
+width:150px;
+height:150px;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 90%;
+margin-top: -30%;
+}
+.seller h6{ /*色塊內文字*/
+  padding: 5%;
+}
+.buyandsell hr /*灰色底線*/
+{
+  font-family: Avenir, sans-serif; 
+  border-right-width: 0px; 
+  border-bottom-width: 0px; 
+  border-left-width: 0px; 
+  border-top-style: solid; 
+  border-top-color: rgb(234, 234, 234); 
+  height:1px; 
+  width: 120%;
+  margin: 1em 0px; 
+  padding: 0px; 
+  color: rgb(51, 51, 51); 
+  font-size: 17px; 
+  white-space: normal;
+}
+.export img{ /*車子圖片*/
+  margin-left: 45%;
+  margin-right: 5%;
+}
+
+.export  h3{ /*車子旁邊文字*/
+  font-size: 24px;
+  margin-bottom: 10%;
+  font-weight: bolder;
+  color: red;
+}
+
+.reduce /*灰色色塊*/
+{
+width:250px;
+height:50px;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 5%;
+}
+.reduce h5{
+  padding: 5%;
+  padding-left: 15%;
+}
+.follow /*灰色色塊*/
+{
+width:250px;
+height:50px;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 5%;
+margin-top: 3%;
+}
+.packing /*灰色色塊*/
+{
+width:250px;
+height:50px;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 5%;
+margin-top: 3%;
+}
+
 .footer {
   background-color: #F8F8F8;
   padding: 20px;
