@@ -183,6 +183,10 @@ body {
   background-color: #b30000;
 }
 
+.buyandsell
+{
+  text-align: center;
+}
 .buyandsell p /*英文字*/
 {
   color: #f60f0f;
@@ -220,10 +224,11 @@ body {
   color: rgb(51, 51, 51); 
   font-size: 17px; 
   white-space: normal;
+  
 }
 
 .buyandsell img{ /*車子圖片*/
-  margin-left: 45%;
+  margin-left: 10%;
   margin-right: 5%;
  
 }
@@ -235,15 +240,22 @@ body {
   color: red;
 }
 
+
+.import
+{
+  max-width: 100%;
+  margin-top: -5%;
+}
 .buyer /*灰色色塊*/
 {
-width:150px;
-height:150px;
+width:15%;
+height:auto;
 background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 5%;
+margin-left: 25%;
+
 }
 
 .buyer h6
@@ -251,19 +263,20 @@ margin-left: 5%;
   padding: 5%;
 }
 .buyandsellpic img{ /*中間圖片*/
-    margin-left: 35%;
-    margin-top: -30%;
+    margin-left: 45%;
+    margin-top: -15%;
     
 }
 .seller{  /*灰色色塊*/
-width:150px;
-height:150px;
+width:15%;
+height:auto;
 background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 90%;
-margin-top: -30%;
+margin-left: 80%;
+margin-top: -13%;
+
 }
 .seller h6{ /*色塊內文字*/
   padding: 5%;
@@ -284,53 +297,114 @@ margin-top: -30%;
   font-size: 17px; 
   white-space: normal;
 }
+.up-service hr
+{
+  font-family: Avenir, sans-serif; 
+  border-right-width: 0px; 
+  border-bottom-width: 0px; 
+  border-left-width: 0px; 
+  border-top-style: solid; 
+  border-top-color: rgb(234, 234, 234); 
+  height:1px; 
+  width: 120%;
+  margin: 1em 0px; 
+  padding: 0px; 
+  color: rgb(51, 51, 51); 
+  font-size: 17px; 
+  white-space: normal;
+  margin-top: 10%;
+}
+.down-service hr
+{
+  font-family: Avenir, sans-serif; 
+  border-right-width: 0px; 
+  border-bottom-width: 0px; 
+  border-left-width: 0px; 
+  border-top-style: solid; 
+  border-top-color: rgb(234, 234, 234); 
+  height:1px; 
+  width: 120%;
+  margin: 1em 0px; 
+  padding: 0px; 
+  color: rgb(51, 51, 51); 
+  font-size: 17px; 
+  white-space: normal;
+  margin-top: 10%;
+}
 .export img{ /*車子圖片*/
-  margin-left: 45%;
-  margin-right: 5%;
+  margin-left: 48%;
+  margin-right:5%
+  
 }
 
 .export  h3{ /*車子旁邊文字*/
   font-size: 24px;
-  margin-bottom: 10%;
+ 
   font-weight: bolder;
   color: red;
+  
 }
 
 .reduce /*灰色色塊*/
 {
-width:250px;
-height:50px;
+width:30%;
+height:25%;
 background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 5%;
+margin-left: 15%;
+margin-top: 3%;
 }
 .reduce h5{
   padding: 5%;
   padding-left: 15%;
 }
-.follow /*灰色色塊*/
+.onestep /*灰色色塊*/
 {
-width:250px;
-height:50px;
+  width:30%;
+  height:25%;
 background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 5%;
+margin-left: 15%;
 margin-top: 3%;
+}
+
+.onestep h5{
+  padding: 5%;
+  padding-left: 15%;
+}
+.follow /*灰色色塊*/
+{
+  width:30%;
+  height:25%;
+background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
+background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
+margin-left: 15%;
+margin-top: 3%;
+}
+.follow h5{
+  padding: 5%;
+  padding-left: 15%;
 }
 .packing /*灰色色塊*/
 {
-width:250px;
-height:50px;
+  width:30%;
+  height:25%;
 background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
 background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 5%;
+margin-left: 15%;
 margin-top: 3%;
+}
+.packing h5{
+  padding: 5%;
+  padding-left: 15%;
 }
 
 .footer {
@@ -341,6 +415,12 @@ margin-top: 3%;
 
 .footer-row {
   margin-bottom: 10px;
+}
+
+.aboutpic{
+   margin-left: 55%;
+   margin-top: -30%;
+  
 }
 
 .footer-link {
