@@ -15,6 +15,7 @@ body {
   transition: transform 0.5s ease-in-out;
   z-index: 999;
 }
+
 .header-scroll {
   background-color: rgba(194, 40, 40, 0.795);
 }
@@ -152,10 +153,19 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
+#background button
+{
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
 .owl-carousel .item .content .contact-btn:hover {
   background-color: #b30000;
 }
-
 .nav-icon 
 {
   cursor: pointer;
@@ -202,7 +212,7 @@ body {
   display: block;
 }
 
-    @media (max-width: 768px) {
+    @media (max-width: 873px) {
       .nav-icon {
         display: block;
       }
@@ -236,7 +246,7 @@ body {
         background-color: rgb(99, 96, 96);
       }
     }
-    @media (min-width: 769px) {
+    @media (min-width: 874px) {
       .nav-dropdown {
         display: none !important;
       }
@@ -730,3 +740,4 @@ margin-top: 3%;
 /*聯絡資訊*/
 
 /*許*/
+
