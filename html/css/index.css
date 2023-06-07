@@ -153,66 +153,57 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
-#background button
-{
-  display: inline-block;
-  background-color: red;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
+
 .owl-carousel .item .content .contact-btn:hover {
   background-color: #b30000;
 }
 .nav-icon 
 {
-  cursor: pointer;
-  font-size: 24px;
-}
-.nav-icon i 
-{
-  transition: transform 0.3s ease-in-out;
-}
-.nav-dropdown 
-{
-  pointer-events: auto;
-  position: absolute;
-  background-color: gray;
-  width: 100%;
-  padding: 0px;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  margin-top: 65px;
-}
+      cursor: pointer;
+      font-size: 24px;
+    }
     
-.nav-dropdown a 
-{
-  display: block;
-  color: white;
-  text-decoration: none;
-  background-color: lightgray;
-  padding: 0px;
-  margin-bottom: 5px;
-  text-align: center;
-}
-.nav-dropdown a:nth-child(even) 
-{
-  background-color: white;
-}
+    .nav-icon i {
+      transition: transform 0.3s ease-in-out;
+    }
     
-.nav-dropdown a:hover 
-{
-  background-color: darkred;
-}
-.nav-dropdown,
-.nav-icon:hover + .nav-dropdown {
-  display: block;
-}
+    .nav-dropdown {
+      pointer-events: auto;
+      position: absolute;
+      background-color: gray;
+      width: 100%;
+      padding: 0px;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      margin-top: 65px;
+    }
+    
+    .nav-dropdown a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      background-color: lightgray;
+      padding: 0px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    
+    .nav-dropdown a:nth-child(even) {
+      background-color: white;
+    }
+    
+    .nav-dropdown a:hover {
+      background-color: darkred;
+    }
+    
 
-    @media (max-width: 873px) {
+    .nav-dropdown,
+    .nav-icon:hover + .nav-dropdown {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
       .nav-icon {
         display: block;
       }
@@ -224,6 +215,8 @@ body {
       .nav > a {
         display: none;
       }
+
+
       .nav-dropdown {
         
         position: fixed;
@@ -246,12 +239,15 @@ body {
         background-color: rgb(99, 96, 96);
       }
     }
-    @media (min-width: 874px) {
+    @media (min-width: 769px) {
       .nav-dropdown {
         display: none !important;
       }
+      .nav-icon
+      {
+        display: none !important;
+      }
     }
-
 .buyandsell
 {
   text-align: center;
