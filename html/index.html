@@ -44,7 +44,7 @@
             </div>
             <div class="nav">
               <a href="#">地球</a>
-              <a href="#">關於六和</a>
+              <a href="#about">關於六和</a>
               <a href="#">進出口服務</a>
               <a href="#">買方＆進口</a>
               <a href="#">賣方＆出口</a>
@@ -78,7 +78,7 @@
           <div class="item"><img src="img/13.jpg" alt="Slide 1">
             <div class="overlay">
               <div class="content">
-                <h1>六合 進出口服務整合</h1>
+                <h1>六合 進出口服務整合</h1> 
                 <p>起重工程 木箱包裝 海運空運 物流運輸</p>
                 <a href="#" class="contact-btn">聯絡我們</a>
               </div>
@@ -111,6 +111,7 @@
       
   
   <!--About-->
+  <div  style="margin-bottom: 20px ;height: 50px" id="about"></div>
   <div class="container">
     <div class="row flex-wrap" style="margin-top: 60px;">
       <div class="col-md-6 d-flex justify-content-center order-md-1">
@@ -138,6 +139,367 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="down-service">
+          <div class="reduce">
+            <h5><img src="./img/click.png" width="20px" height="20px">降低大量進出口成本</h5>
+          </div>
+          <div class="follow">
+            <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
+          </div>
+          <div class="onestep">
+            <h5><img src="./img/click.png" width="20px" height="20px">一站式專屬服務</h5>
+          </div>
+          <div class="packing">
+            <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
+          </div>
+          <div class="aboutpic">
+             <img src="./img/about.png" width="100%" height="auto">
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--整合服務-->
+  <div class="container">
+    <div class="row" style="margin-top: 70px;">
+      <div class="col-10">
+        <div class="buyandsell">
+          <div class="text-block text-nowrap">
+            <h6 style="color: red; margin-bottom: 10px; font-size: smaller;">EXPORT-IMPORT SERVICE
+              INTEGRATION</h6>
+            <h2 style="font-weight: bolder; color: black; margin-top: 10px;">六合進出口服務整合</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .carousel-indicators li {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      line-height: 15px;
+      text-indent: 0;
+      margin: 0 2px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .arrow {
+      font-size: 30px;
+    }
+
+    .arrow-and-number {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .arrow-and-number span {
+      margin-right: 10px;
+    }
+
+    .hr-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hr-container hr {
+      width: 60%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      opacity: 0;
+      transition: all 0.5s ease;
+      position: absolute;
+      top: 50%;
+      z-index: 5;
+    }
+
+    .carousel-control-prev::before,
+    .carousel-control-next::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      transition: all 0.5s ease;
+    }
+
+    .carousel-control-prev::before {
+      border-width: 50px 0 50px 80px;
+      border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
+      left: 0;
+    }
+
+    .carousel-control-next::before {
+      border-width: 50px 80px 50px 0;
+      border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
+      right: 0;
+    }
+
+    .carousel:hover .carousel-control-prev,
+    .carousel:hover .carousel-control-next {
+      opacity: 1;
+    }
+
+    /* Custom CSS for RWD */
+    .text-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .carousel {
+      width: 50%;
+      margin: auto;
+      /* 讓輪播區塊置中 */
+    }
+
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .carousel {
+        width: 85%;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .carousel {
+        width: 100%;
+      }
+
+      .carousel-item .col-md-6 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .carousel-item .image-block {
+        order: 1;
+        margin: 0 auto;
+      }
+
+      .carousel-item .text-block {
+        order: 2;
+        text-align: center;
+        margin: 10px auto 20px;
+        /* Add 10px margin at the top */
+        width: 70%;
+        /* Set the width to 70% */
+      }
+    }
+
+
+    .text-block p {
+      text-align: justify;
+    }
+
+    #background {
+      background-image: url('img/13.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 300%;
+      height: 333px;
+      width: 100%;
+      position: relative;
+    }
+
+    #text {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    #background {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      /* This ensures the div takes up the full height of the viewport. Adjust as needed. */
+    }
+
+    .left,
+    .right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .left img,
+    .right img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    @media (min-width: 992px) and (max-width: 1151px) {
+      .right img {
+        width: 30%;
+        /* 圖片大小變為先前的一半 */
+      }
+    }
+
+    @media (max-width: 991px) {
+      #background {
+        height: 50%;
+        /* 高度變為50% */
+      }
+
+      .left,
+      .right {
+        width: 100%;
+      }
+
+      .right img {
+        width: calc(100vw / 6);
+        /* 圖片寬度為當前網頁寬度的1/6 */
+      }
+    }
+  </style>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="image-block">
+              <img class="d-block mx-auto" src="img/service-pic1.png" alt="First slide" style="width: 65%;">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="text-block">
+              <!-- Add your arrow and number here -->
+              <div class="arrow-and-number">
+                <span>&#10142;</span> 工程及運輸保險
+              </div>
+              <!-- Add your HRs here -->
+              <div class="hr-container">
+                <hr>
+                <hr>
+              </div>
+              <p>提供境內及跨國整段物流運輸、起重裝卸、海運、空運等運輸及工程保險，給予各項工程、物流運輸所面臨的財務損失與責任風險保障，以填補貨主或被保險人的意外事故損失。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="image-block">
+              <img class="d-block mx-auto" src="img/service-pic2.png" alt="Second slide" style="width: 65%;">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="text-block">
+              <!-- Add your arrow and number here -->
+              <div class="arrow-and-number">
+                <span>&#10142;</span> 進出口代理
+              </div>
+              <!-- Add your HRs here -->
+              <div class="hr-container">
+                <hr>
+                <hr>
+              </div>
+              <p>提供與進出口報關清關、對外付匯、進出口商檢、訂艙等服務，製作全套進出口所需資料單據，整合所有物流運輸，架構完整的供應鏈，一站式貼心服務。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="image-block">
+              <img class="d-block mx-auto" src="img/service-pic3.png" alt="Third slide" style="width: 65%;">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="text-block">
+              <!-- Add your arrow and number here -->
+              <div class="arrow-and-number">
+                <span>&#10142;</span> 輔助驗機工程(第三方)
+              </div>
+              <!-- Add your HRs here -->
+              <div class="hr-container">
+                <hr>
+                <hr>
+              </div>
+              <p>提供第三方工程團隊協助驗機、依據設備種類提供適當團隊、提供檢核表數據參考比較、降低包裝、運輸風險、降低設備廠商海外重工的成本損失。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div id="background">
+    <div class="left" style="color: aliceblue;">
+      <h2>六和進出口服務整合</h2>
+      <p>ISO 9001 認證</p>
+      <button>點擊這裡</button>
+    </div>
+    <div class="right">
+      <img src="img/service-pic6.png" alt="Service Image" style="width: auto
+      ;">
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
+    $(document).ready(function () {
+      var carousel = $('.carousel');
+
+      carousel.on('mouseenter', function () {
+        carousel.find('.carousel-control-prev, .carousel-control-next').css('opacity', '1');
+      });
+
+      carousel.on('mouseleave', function () {
+        carousel.find('.carousel-control-prev, .carousel-control-next').css('opacity', '0');
+      });
+    });
+
+    window.addEventListener('scroll', function () {
+      var scrollPercentage = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      document.getElementById('background').style.backgroundPosition = '0 ' + (scrollPercentage * 100) + '%';
+
+    });
+  </script>
+  
 
   <style>
     @media (max-width: 991px) and (min-width: 768px) {
@@ -163,15 +525,6 @@
       }
     }
   </style>
-      <div class="container">
-        <div class="row">
-          <div class="col-10">
-              <div class="about">
-                   進出口服務整合
-              </div>
-          </div>
-        </div>
-      </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -206,30 +559,79 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="down-service">
-              <div class="export">
+              <div class="export-service">
                 <h3><img src="./img/car.png" width="30px" height="30px" >進口服務整合</h3>
               </div>
+              <div class="export-down-service">
+                <div class="reduce">
+                  <h5><img src="./img/click.png" width="20px" height="20px">降低大量購買成本</h5>
+                </div>
+              </div>
+                <div class="export-down-service">
+                  <div class="follow">
+                    <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
+                  </div>
+                </div>
+                <div class="export-down-service">
+                  <div class="packing">
+                    <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
+                  </div>
+                </div>
+                <div class="import-aboutpic">
+                  <img src="./img/export2.png" width="100%" height="auto">
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+              <div class="buyandsell">
+                   <p>SELLER & EXPORT</p>
+                   <h2>賣方&出口</h2>
+                   <h6>設備產品出口時，從初步的報關、起重裝缷、物流運輸、海運空運、產物保險等，在這當中有太多『看不見的風險、看不見的費用』，在常見的貿易條件像DDP、DDU中，面臨海外整個進口清關報檢、物流、產物保險、起重裝缷等，過程伴隨無形的成本增加，請您試著想像『我只需要致力於設備產品的品質』，未知的風險，將由我們為您承擔。</h6>
+                   <hr>
+                   <h3><img src="./img/car.png" width="30px" height="30px" >出口流程(EX WORK)</h3>
+              </div>
+              <div class="export-aboutpic">
+                <img src="./img/export1.png" width="100%" height="auto">
+             </div>
+             <div class="export-middle-service">
               <div class="reduce">
-                <h5><img src="./img/click.png" width="20px" height="20px">降低大量購買成本</h5>
+                <h5><img src="./img/click.png" width="20px" height="20px">精準計算銷售成本</h5>
               </div>
-              <div class="follow">
-                <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
+            </div>
+            <div class="export-middle-service">
+              <div class="upgrade">
+                <h5><img src="./img/click.png" width="20px" height="20px">提高買賣雙方成交率</h5>
               </div>
-              <div class="onestep">
-                <h5><img src="./img/click.png" width="20px" height="20px">一站式專屬服務</h5>
-              </div>
-              <div class="packing">
-                <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
-              </div>
-              <div class="aboutpic">
-                 <img src="./img/about.png" width="100%" height="auto">
+            </div>
+            <div class="export-middle-service">
+              <div class="carry">
+                <h5><img src="./img/click.png" width="20px" height="20px">無需背負物流運輸風險</h5>
               </div>
               <hr>
             </div>
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="buyandsell">
+              <h3><img src="./img/car.png" width="30px" height="30px" >出口流程（FOB、CIF、DDP、DDU）</h3>
+            </div>
+            <div class="import-aboutpic2">
+              <img src="./img/export2.png" width="60%" height="auto">
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="black-block">
+          <h4>您有進出口整合服務需求?</h4>
+          <a href="#" class="contact-btn">聯絡我們</a>
+      </div>
+
       <style>
         @media (max-width: 991px) {
           .col-md-6 {
@@ -374,356 +776,8 @@
       </style>
     
     
-      <!--整合服務-->
-      <div class="container">
-        <div class="row" style="margin-top: 70px;">
-          <div class="col-10">
-            <div class="buyandsell">
-              <div class="text-block text-nowrap">
-                <h6 style="color: red; margin-bottom: 10px; font-size: smaller;">EXPORT-IMPORT SERVICE
-                  INTEGRATION</h6>
-                <h2 style="font-weight: bolder; color: black; margin-top: 10px;">六合進出口服務整合</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <style>
-        .carousel-indicators li {
-          width: 15px;
-          height: 15px;
-          border-radius: 50%;
-          line-height: 15px;
-          text-indent: 0;
-          margin: 0 2px;
-          cursor: pointer;
-          text-align: center;
-          font-size: 10px;
-        }
+      
     
-        .arrow {
-          font-size: 30px;
-        }
-    
-        .arrow-and-number {
-          display: flex;
-          justify-content: center;
-          margin-bottom: 10px;
-        }
-    
-        .arrow-and-number span {
-          margin-right: 10px;
-        }
-    
-        .hr-container {
-          display: flex;
-          justify-content: space-between;
-        }
-    
-        .hr-container hr {
-          width: 60%;
-        }
-    
-        .carousel-control-prev,
-        .carousel-control-next {
-          opacity: 0;
-          transition: all 0.5s ease;
-          position: absolute;
-          top: 50%;
-          z-index: 5;
-        }
-    
-        .carousel-control-prev::before,
-        .carousel-control-next::before {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          transition: all 0.5s ease;
-        }
-    
-        .carousel-control-prev::before {
-          border-width: 50px 0 50px 80px;
-          border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
-          left: 0;
-        }
-    
-        .carousel-control-next::before {
-          border-width: 50px 80px 50px 0;
-          border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
-          right: 0;
-        }
-    
-        .carousel:hover .carousel-control-prev,
-        .carousel:hover .carousel-control-next {
-          opacity: 1;
-        }
-    
-        /* Custom CSS for RWD */
-        .text-block {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-    
-        .carousel {
-          width: 50%;
-          margin: auto;
-          /* 讓輪播區塊置中 */
-        }
-    
-    
-        @media (min-width: 768px) and (max-width: 1199px) {
-          .carousel {
-            width: 85%;
-          }
-        }
-    
-        @media (max-width: 767px) {
-          .carousel {
-            width: 100%;
-          }
-    
-          .carousel-item .col-md-6 {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          }
-    
-          .carousel-item .image-block {
-            order: 1;
-            margin: 0 auto;
-          }
-    
-          .carousel-item .text-block {
-            order: 2;
-            text-align: center;
-            margin: 10px auto 20px;
-            /* Add 10px margin at the top */
-            width: 70%;
-            /* Set the width to 70% */
-          }
-        }
-    
-    
-        .text-block p {
-          text-align: justify;
-        }
-    
-        #background {
-          background-image: url('img/13.jpg');
-          background-repeat: no-repeat;
-          background-size: 100% 300%;
-          height: 333px;
-          width: 100%;
-          position: relative;
-        }
-    
-        #text {
-          position: absolute;
-          top: 50%;
-          left: 0;
-          right: 0;
-          text-align: center;
-        }
-    
-        #background {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-wrap: wrap;
-          /* This ensures the div takes up the full height of the viewport. Adjust as needed. */
-        }
-    
-        .left,
-        .right {
-          width: 50%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          text-align: center;
-          overflow: hidden;
-        }
-    
-        .left img,
-        .right img {
-          max-width: 100%;
-          height: auto;
-          object-fit: cover;
-        }
-    
-        @media (min-width: 992px) and (max-width: 1151px) {
-          .right img {
-            width: 30%;
-            /* 圖片大小變為先前的一半 */
-          }
-        }
-    
-        @media (max-width: 991px) {
-          #background {
-            height: 50%;
-            /* 高度變為50% */
-          }
-    
-          .left,
-          .right {
-            width: 100%;
-          }
-    
-          .right img {
-            width: calc(100vw / 6);
-            /* 圖片寬度為當前網頁寬度的1/6 */
-          }
-        }
-      </style>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="image-block">
-                  <img class="d-block mx-auto" src="img/service-pic1.png" alt="First slide" style="width: 65%;">
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="text-block">
-                  <!-- Add your arrow and number here -->
-                  <div class="arrow-and-number">
-                    <span>&#10142;</span> 工程及運輸保險
-                  </div>
-                  <!-- Add your HRs here -->
-                  <div class="hr-container">
-                    <hr>
-                    <hr>
-                  </div>
-                  <p>提供境內及跨國整段物流運輸、起重裝卸、海運、空運等運輸及工程保險，給予各項工程、物流運輸所面臨的財務損失與責任風險保障，以填補貨主或被保險人的意外事故損失。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="image-block">
-                  <img class="d-block mx-auto" src="img/service-pic2.png" alt="Second slide" style="width: 65%;">
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="text-block">
-                  <!-- Add your arrow and number here -->
-                  <div class="arrow-and-number">
-                    <span>&#10142;</span> 進出口代理
-                  </div>
-                  <!-- Add your HRs here -->
-                  <div class="hr-container">
-                    <hr>
-                    <hr>
-                  </div>
-                  <p>提供與進出口報關清關、對外付匯、進出口商檢、訂艙等服務，製作全套進出口所需資料單據，整合所有物流運輸，架構完整的供應鏈，一站式貼心服務。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="image-block">
-                  <img class="d-block mx-auto" src="img/service-pic3.png" alt="Third slide" style="width: 65%;">
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center">
-                <div class="text-block">
-                  <!-- Add your arrow and number here -->
-                  <div class="arrow-and-number">
-                    <span>&#10142;</span> 輔助驗機工程(第三方)
-                  </div>
-                  <!-- Add your HRs here -->
-                  <div class="hr-container">
-                    <hr>
-                    <hr>
-                  </div>
-                  <p>提供第三方工程團隊協助驗機、依據設備種類提供適當團隊、提供檢核表數據參考比較、降低包裝、運輸風險、降低設備廠商海外重工的成本損失。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div id="background">
-        <div class="left" style="color: aliceblue;">
-          <h2>六和進出口服務整合</h2>
-          <p>ISO 9001 認證</p>
-          <button>點擊這裡</button>
-        </div>
-        <div class="right">
-          <img src="img/service-pic6.png" alt="Service Image" style="width: auto
-          ;">
-        </div>
-      </div>
-    
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-      <script>
-        $(document).ready(function () {
-          $('.carousel').carousel();
-        });
-        $(document).ready(function () {
-          var carousel = $('.carousel');
-    
-          carousel.on('mouseenter', function () {
-            carousel.find('.carousel-control-prev, .carousel-control-next').css('opacity', '1');
-          });
-    
-          carousel.on('mouseleave', function () {
-            carousel.find('.carousel-control-prev, .carousel-control-next').css('opacity', '0');
-          });
-        });
-    
-        window.addEventListener('scroll', function () {
-          var scrollPercentage = window.scrollY / (document.body.scrollHeight - window.innerHeight);
-          document.getElementById('background').style.backgroundPosition = '0 ' + (scrollPercentage * 100) + '%';
-    
-        });
-      </script>
-      <div class="container">
-        <div class="row">
-          <div class="col-10">
-            <div class="buyandsell">
-              <p>BUYER & IMPORT</p>
-              <h2>買方&進口</h2>
-              <h6>
-                以往從海外進口設備產品時，在海外物流運輸階段，為了避開不必要的風險，您需要『支付額外的費用』解決『看不見的風險』，六合將協助您從海外到境內，降低物流成本，為您購買的設備產品量身訂作包裝方式、物流運輸並降低風險，提供專人物流追蹤協助海運、空運，第一時間掌握設備產品的最新動態。
-              </h6>
-              <hr>
-              <img src="./img/car.png" width="30px" height="3a0px">
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- 工程實績-->
       <section id="project" class="section-padding white-bg">
         <div class="container text-center">
