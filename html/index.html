@@ -1,117 +1,124 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>六和公司</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
   <style>
     .nav-dropdown {
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    
-  }
-  .dropdown-menu  {
-    content: none;
-    padding: 0px;
-    z-index: 1000;
-  }
+      display: none;
+      position: absolute;
+      z-index: 1000;
 
-  .dropdown{
-    display: block;
-    margin-top: 0;
-    
-  }
+    }
 
+    .dropdown-menu {
+      content: none;
+      padding: 0px;
+      z-index: 1000;
+    }
+
+    .dropdown {
+      display: block;
+      margin-top: 0;
+
+    }
   </style>
 
+
 </head>
+
 <body>
   <div class="container">
     <div class="row">
       <div class="col-12">
         <header class="header">
-            <div class="logo">
-              <img src="img/logo-light.png" alt="公司圖標">
-            </div>
-            <div class="nav">
-              <a href="#">地球</a>
-              <a href="#about">關於六和</a>
-              <a href="#">進出口服務</a>
-              <a href="#">買方＆進口</a>
-              <a href="#">賣方＆出口</a>
-              <a href="#">工程實績</a>
-              <a href="#">聯絡六合</a>
-              <div class="nav-icon" id="dropdownIcon">
-                <i class="fas fa-bars"></i>
-                <div class="nav-dropdown" id="dropdownMenu">
-                  <div class="dropdown">
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <li><a class="dropdown-item" href="#">地球</a></li>
-                      <li><a class="dropdown-item" href="#">關於六和</a></li>
-                      <li><a class="dropdown-item" href="#">進出口服務</a></li>
-                      <li><a class="dropdown-item" href="#">買方＆進口</a></li>
-                      <li><a class="dropdown-item" href="#">賣方＆出口</a></li>
-                      <li><a class="dropdown-item" href="#">工程實績</a></li>
-                      <li><a class="dropdown-item" href="#">聯絡六合</a></li>
-                    </ul>
-                  </div>
+          <div class="logo">
+            <img src="img/logo-light.png" alt="公司圖標">
+          </div>
+          <div class="nav">
+            <a href="#">語言切換</a>
+            <a href="#about">關於六和</a>
+            <a href="#service">進出口服務</a>
+            <a href="#buyer">買方＆進口</a>
+            <a href="#seller">賣方＆出口</a>
+            <a href="#performance">工程實績</a>
+            <a href="#contact">聯絡六合</a>
+            <!--
+            <div class="nav-icon" id="dropdownIcon">
+              <i class="fas fa-bars"></i>
+              <div class="nav-dropdown" id="dropdownMenu">
+                <div class="dropdown">
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">地球</a></li>
+                    <li><a class="dropdown-item" href="#">關於六和</a></li>
+                    <li><a class="dropdown-item" href="#">進出口服務</a></li>
+                    <li><a class="dropdown-item" href="#">買方＆進口</a></li>
+                    <li><a class="dropdown-item" href="#">賣方＆出口</a></li>
+                    <li><a class="dropdown-item" href="#">工程實績</a></li>
+                    <li><a class="dropdown-item" href="#">聯絡六合</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
+          -->
+          </div>
         </header>
       </div>
     </div>
   </div>
-    
+
   <!-- 其他網頁內容 -->
- 
-        <div class="owl-carousel">
-          <div class="item"><img src="img/13.jpg" alt="Slide 1">
-            <div class="overlay">
-              <div class="content">
-                <h1>六合 進出口服務整合</h1> 
-                <p>起重工程 木箱包裝 海運空運 物流運輸</p>
-                <a href="#" class="contact-btn">聯絡我們</a>
-              </div>
-            </div>
-          </div>
-          <div class="item"><img src="img/14.jpg" alt="Slide 2">
-            <div class="overlay">
-              <div class="content">
-                <h1>六合 進出口服務整合</h1>
-                <p>起重工程 木箱包裝 海運空運 物流運輸</p>
-                <a href="#" class="contact-btn">聯絡我們</a>
-              </div>
-            </div>
-          </div>
-          <div class="item"><img src="img/15.jpg" alt="Slide 3">
-            <div class="overlay">
-              <div class="content">
-                <h1>六合 進出口服務整合</h1>
-                <p>起重工程 木箱包裝 海運空運 物流運輸</p>
-                <a href="#" class="contact-btn">聯絡我們</a>
-              </div>
-            </div>
-          </div>
-          <!-- 其他轮播内容 -->
+  <div class="owl-carousel">
+    <div class="item"><img src="img/13.jpg" alt="Slide 1">
+      <div class="overlay">
+        <div class="content">
+          <h1>六合 進出口服務整合</h1>
+          <p>起重工程 木箱包裝 海運空運 物流運輸</p>
+          <a href="#" class="contact-btn">聯絡我們</a>
         </div>
       </div>
+    </div>
+    <div class="item"><img src="img/14.jpg" alt="Slide 2">
+      <div class="overlay">
+        <div class="content">
+          <h1>六合 進出口服務整合</h1>
+          <p>起重工程 木箱包裝 海運空運 物流運輸</p>
+          <a href="#" class="contact-btn">聯絡我們</a>
+        </div>
+      </div>
+    </div>
+    <div class="item"><img src="img/15.jpg" alt="Slide 3">
+      <div class="overlay">
+        <div class="content">
+          <h1>六合 進出口服務整合</h1>
+          <p>起重工程 木箱包裝 海運空運 物流運輸</p>
+          <a href="#" class="contact-btn">聯絡我們</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-      
-  
   <!--About-->
-  <div  style="margin-bottom: 20px ;height: 50px" id="about"></div>
+  <div id="about" style="height: 15px;"></div>
   <div class="container">
     <div class="row flex-wrap" style="margin-top: 60px;">
       <div class="col-md-6 d-flex justify-content-center order-md-1">
@@ -139,36 +146,197 @@
       </div>
     </div>
   </div>
+  <style>
+    @media (max-width: 991px) and (min-width: 768px) {
+      .text-block {
+        width: 80%;
+        max-width: 80%;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .col-md-6 {
+        flex-basis: 100%;
+        margin-top: 30px;
+      }
+
+      .image-block {
+        text-align: center;
+      }
+
+      .image-block img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  </style>
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="down-service">
-          <div class="reduce">
-            <h5><img src="./img/click.png" width="20px" height="20px">降低大量進出口成本</h5>
+    <div class="row flex-wrap" style="margin-top: 60px;">
+      <div class="col-md-6 d-flex justify-content-center order-md-1">
+        <div class="image-block">
+          <div class="rectangle" style="margin-bottom: 15px;">
+            <span class="checkmark">&#10003;</span>
+            <span class="text">降低大量進出口成本</span>
           </div>
-          <div class="follow">
-            <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
+          <div class="rectangle" style="margin-bottom: 15px;">
+            <span class="checkmark">&#10003;</span>
+            <span class="text">隨時掌握物流狀況</span>
           </div>
-          <div class="onestep">
-            <h5><img src="./img/click.png" width="20px" height="20px">一站式專屬服務</h5>
+          <div class="rectangle" style="margin-bottom: 15px;">
+            <span class="checkmark">&#10003;</span>
+            <span class="text">一站式專屬服務</span>
           </div>
-          <div class="packing">
-            <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
+          <div class="rectangle" style="margin-bottom: 15px;">
+            <span class="checkmark">&#10003;</span>
+            <span class="text">客製化包裝及物流運輸</span>
           </div>
-          <div class="aboutpic">
-             <img src="./img/about.png" width="100%" height="auto">
-          </div>
-          <hr>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center order-md-2">
+        <div class="image-block">
+          <img src="img/about-pic2.png" alt="图片" style="width: calc(376px * 1.35); height: auto;">
         </div>
       </div>
     </div>
   </div>
-  
+  <style>
+    @media (max-width: 991px) {
+      .col-md-6 {
+        flex-basis: 100%;
+        margin-top: 30px;
+      }
+
+      .image-block {
+        text-align: center;
+      }
+
+      .image-block img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .checkmark {
+        margin-right: 10px;
+      }
+    }
+
+    .rectangle {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      height: 64px;
+      width: 376px;
+      background: linear-gradient(to right, white, #ccc);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .text {
+      text-align: center;
+    }
+  </style>
+  <!--About_end-->
+
   <!--整合服務-->
+  <style>
+    h6,
+    h2 {
+      text-align: center;
+    }
+
+    @media (max-width: 767px) {
+      .container {
+        margin-top: 40px;
+      }
+
+      h6 {
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .container {
+        margin-top: 20px;
+      }
+
+      h6 {
+        font-size: 12px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+    }
+
+    .text-block {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .service-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .service-image {
+      flex: 0 0 50%;
+      padding-right: 10px;
+    }
+
+    .service-content {
+      flex: 0 0 50%;
+      padding-left: 10px;
+      border-left: 1px solid #000;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      /* Align content to the left */
+    }
+
+    .arrow {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .arrow i {
+      margin-right: 5px;
+    }
+
+    .circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #000;
+      margin-right: 5px;
+    }
+
+    .divider {
+      margin: 10px 0;
+      height: 1px;
+      background-color: #000;
+      width: calc(80% + 10px);
+      /* 線條長度略大於內文的寬度 */
+      margin-left: -5px;
+      /* 調整線條位置以與內文對齊 */
+    }
+  </style>
+
+  <!--整合服務-->
+  <div id="service" style="height: 15px;"></div>
   <div class="container">
     <div class="row" style="margin-top: 70px;">
       <div class="col-10">
-        <div class="buyandsell">
+        <div class="about">
           <div class="text-block text-nowrap">
             <h6 style="color: red; margin-bottom: 10px; font-size: smaller;">EXPORT-IMPORT SERVICE
               INTEGRATION</h6>
@@ -385,11 +553,11 @@
           </div>
           <div class="col-md-6 d-flex justify-content-center">
             <div class="text-block">
-              <!-- Add your arrow and number here -->
+
               <div class="arrow-and-number">
                 <span>&#10142;</span> 工程及運輸保險
               </div>
-              <!-- Add your HRs here -->
+
               <div class="hr-container">
                 <hr>
                 <hr>
@@ -408,11 +576,11 @@
           </div>
           <div class="col-md-6 d-flex justify-content-center">
             <div class="text-block">
-              <!-- Add your arrow and number here -->
+
               <div class="arrow-and-number">
                 <span>&#10142;</span> 進出口代理
               </div>
-              <!-- Add your HRs here -->
+
               <div class="hr-container">
                 <hr>
                 <hr>
@@ -431,11 +599,11 @@
           </div>
           <div class="col-md-6 d-flex justify-content-center">
             <div class="text-block">
-              <!-- Add your arrow and number here -->
+
               <div class="arrow-and-number">
                 <span>&#10142;</span> 輔助驗機工程(第三方)
               </div>
-              <!-- Add your HRs here -->
+
               <div class="hr-container">
                 <hr>
                 <hr>
@@ -456,7 +624,7 @@
       </a>
     </div>
   </div>
-  <div id="background">
+  <div id="background" style="margin-top: 15px;">
     <div class="left" style="color: aliceblue;">
       <h2>六和進出口服務整合</h2>
       <p>ISO 9001 認證</p>
@@ -468,15 +636,8 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+
   <script>
     $(document).ready(function () {
       $('.carousel').carousel();
@@ -499,555 +660,469 @@
 
     });
   </script>
-  
+
+
+
+  <!--buyandsell-->
+  <div id="buyer" style="height: 15px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="buyandsell">
+          <p>BUYER & IMPORT</p>
+          <h2>買方&進口</h2>
+          <h6>
+            以往從海外進口設備產品時，在海外物流運輸階段，為了避開不必要的風險，您需要『支付額外的費用』解決『看不見的風險』，六合將協助您從海外到境內，降低物流成本，為您購買的設備產品量身訂作包裝方式、物流運輸並降低風險，提供專人物流追蹤協助海運、空運，第一時間掌握設備產品的最新動態。
+          </h6>
+          <h3><img src="./img/car.png" width="30px" height="30px">進口流程</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="up-service">
+          <div class="left-text">
+            <h6>買方：因交易條件不同及對他國運輸的潛在風險，買方大多需透過賣方提供運輸服務及產物保險。</h6>
+          </div>
+          <div class="buyandsellpic">
+            <img src="./img/buyandsell.png" width="100%">
+          </div>
+          <div class="right-text">
+            <h6>賣方：因提供運輸服務，需承擔風險，所產生之費用必然加進銷售成本裡面。</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <style>
-    @media (max-width: 991px) and (min-width: 768px) {
-      .text-block {
-        width: 80%;
-        max-width: 80%;
-      }
+    .up-service {
+      display: flex;
+      flex-direction: column;
+      /* 在小屏幕下垂直布局 */
+      align-items: center;
+      /* 垂直居中对齐 */
+      text-align: center;
+      /* 文本居中对齐 */
     }
 
-    @media (max-width: 991px) {
-      .col-md-6 {
-        flex-basis: 100%;
-        margin-top: 30px;
+    .left-text,
+    .buyandsellpic,
+    .right-text {
+      padding: 10px;
+    }
+
+    .left-text,
+    .right-text {
+      background: linear-gradient(to right, #F7F7F7, #E0E0E0);
+    }
+
+    .buyandsellpic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (min-width: 992px) {
+      .up-service {
+        flex-direction: row;
+        /* 在大屏幕下水平布局 */
+        justify-content: space-between;
+        /* 水平间距平均分布 */
+        align-items: center;
+        /* 垂直居中对齐 */
+        text-align: left;
+        /* 文本左对齐 */
       }
 
-      .image-block {
-        text-align: center;
+      .left-text,
+      .right-text {
+        width: auto;
+        /* 恢复自动宽度 */
       }
 
-      .image-block img {
-        max-width: 100%;
-        height: auto;
+      .buyandsellpic {
+        flex: 0 0 40%;
+        /* 固定宽度为40% */
+        max-width: 40%;
       }
     }
   </style>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-              <div class="buyandsell">
-                   <p>BUYER & IMPORT</p>
-                   <h2>買方&進口</h2>
-                   <h6>以往從海外進口設備產品時，在海外物流運輸階段，為了避開不必要的風險，您需要『支付額外的費用』解決『看不見的風險』，六合將協助您從海外到境內，降低物流成本，為您購買的設備產品量身訂作包裝方式、物流運輸並降低風險，提供專人物流追蹤協助海運、空運，第一時間掌握設備產品的最新動態。</h6>
-                   <hr>
-                   <h3><img src="./img/car.png" width="30px" height="30px" >進口流程</h3>
-              </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="export-service">
+          <h3><img src="./img/car.png" width="30px" height="30px">進口服務整合</h3>
+        </div>
+        <div class="export-down-service">
+          <div class="reduce">
+            <h5><img src="./img/click.png" width="20px" height="20px">降低大量購買成本</h5>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="up-service">
-              <div class="buyer">
-                <h6>買方：因交易條件不同及對他國運輸的潛在風險，買方大多需透過賣方提供運輸服務及產物保險。</h6>
-              </div>
-              <div class="buyandsellpic">
-                <img src="./img/buyandsell.png" width="30%" height="40%">
-              </div>
-              <div class="seller">
-                <h6>賣方：因提供運輸服務，需承擔風險，所產生之費用必然加進銷售成本裡面。</h6>
-              </div>
-              <hr>
-            </div>
+        <div class="export-down-service">
+          <div class="follow">
+            <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-              <div class="export-service">
-                <h3><img src="./img/car.png" width="30px" height="30px" >進口服務整合</h3>
-              </div>
-              <div class="export-down-service">
-                <div class="reduce">
-                  <h5><img src="./img/click.png" width="20px" height="20px">降低大量購買成本</h5>
-                </div>
-              </div>
-                <div class="export-down-service">
-                  <div class="follow">
-                    <h5><img src="./img/click.png" width="20px" height="20px">隨時掌握物流狀況</h5>
-                  </div>
-                </div>
-                <div class="export-down-service">
-                  <div class="packing">
-                    <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
-                  </div>
-                </div>
-                <div class="import-aboutpic">
-                  <img src="./img/export2.png" width="100%" height="auto">
-               </div>
+        <div class="export-down-service">
+          <div class="packing">
+            <h5><img src="./img/click.png" width="20px" height="20px">客製化包裝及物流運輸</h5>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-              <div class="buyandsell">
-                   <p>SELLER & EXPORT</p>
-                   <h2>賣方&出口</h2>
-                   <h6>設備產品出口時，從初步的報關、起重裝缷、物流運輸、海運空運、產物保險等，在這當中有太多『看不見的風險、看不見的費用』，在常見的貿易條件像DDP、DDU中，面臨海外整個進口清關報檢、物流、產物保險、起重裝缷等，過程伴隨無形的成本增加，請您試著想像『我只需要致力於設備產品的品質』，未知的風險，將由我們為您承擔。</h6>
-                   <hr>
-                   <h3><img src="./img/car.png" width="30px" height="30px" >出口流程(EX WORK)</h3>
-              </div>
-              <div class="export-aboutpic">
-                <img src="./img/export1.png" width="100%" height="auto">
-             </div>
-             <div class="export-middle-service">
-              <div class="reduce">
-                <h5><img src="./img/click.png" width="20px" height="20px">精準計算銷售成本</h5>
-              </div>
-            </div>
-            <div class="export-middle-service">
-              <div class="upgrade">
-                <h5><img src="./img/click.png" width="20px" height="20px">提高買賣雙方成交率</h5>
-              </div>
-            </div>
-            <div class="export-middle-service">
-              <div class="carry">
-                <h5><img src="./img/click.png" width="20px" height="20px">無需背負物流運輸風險</h5>
-              </div>
-              <hr>
-            </div>
-          </div>
+        <div class="import-aboutpic">
+          <img src="./img/export2.png" width="100%" height="auto">
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="buyandsell">
-              <h3><img src="./img/car.png" width="30px" height="30px" >出口流程（FOB、CIF、DDP、DDU）</h3>
-            </div>
-            <div class="import-aboutpic2">
-              <img src="./img/export2.png" width="60%" height="auto">
-           </div>
+    </div>
+  </div>
+  <div id="seller" style="height: 5px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="buyandsell">
+          <p>SELLER & EXPORT</p>
+          <h2>賣方&出口</h2>
+          <h6>
+            設備產品出口時，從初步的報關、起重裝缷、物流運輸、海運空運、產物保險等，在這當中有太多『看不見的風險、看不見的費用』，在常見的貿易條件像DDP、DDU中，面臨海外整個進口清關報檢、物流、產物保險、起重裝缷等，過程伴隨無形的成本增加，請您試著想像『我只需要致力於設備產品的品質』，未知的風險，將由我們為您承擔。
+          </h6>
+          <h3><img src="./img/car.png" width="30px" height="30px">出口流程(EX WORK)</h3>
+        </div>
+        <div class="export-aboutpic">
+          <img src="./img/export1.png" width="100%" height="auto">
+        </div>
+        <div class="export-middle-service">
+          <div class="reduce">
+            <h5><img src="./img/click.png" width="20px" height="20px">精準計算銷售成本</h5>
           </div>
         </div>
-      </div>
-      <div class="black-block">
-          <h4>您有進出口整合服務需求?</h4>
-          <a href="#" class="contact-btn">聯絡我們</a>
-      </div>
+        <div class="export-middle-service">
+          <div class="upgrade">
+            <h5><img src="./img/click.png" width="20px" height="20px">提高買賣雙方成交率</h5>
+          </div>
+        </div>
+        <div class="export-middle-service">
+          <div class="carry">
+            <h5><img src="./img/click.png" width="20px" height="20px">無需背負物流運輸風險</h5>
+          </div>
 
-      <style>
-        @media (max-width: 991px) {
-          .col-md-6 {
-            flex-basis: 100%;
-            margin-top: 30px;
-          }
-    
-          .image-block {
-            text-align: center;
-          }
-    
-          .image-block img {
-            max-width: 100%;
-            height: auto;
-          }
-    
-          .rectangle {
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-    
-          .checkmark {
-            margin-right: 10px;
-          }
-        }
-    
-        .rectangle {
-          margin-bottom: 15px;
-          display: flex;
-          align-items: center;
-          padding-left: 10px;
-          height: 64px;
-          width: 376px;
-          background: linear-gradient(to right, white, #ccc);
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
-    
-        .checkmark {
-          margin-right: 10px;
-        }
-    
-        .text {
-          text-align: center;
-        }
-      </style>
-      <!--About_end-->
-    
-      <!--整合服務-->
-      <style>
-        h6,
-        h2 {
-          text-align: center;
-        }
-    
-        @media (max-width: 767px) {
-          .container {
-            margin-top: 40px;
-          }
-    
-          h6 {
-            font-size: 14px;
-          }
-    
-          h2 {
-            font-size: 18px;
-          }
-        }
-    
-        @media (max-width: 576px) {
-          .container {
-            margin-top: 20px;
-          }
-    
-          h6 {
-            font-size: 12px;
-          }
-    
-          h2 {
-            font-size: 16px;
-          }
-        }
-    
-        .text-block {
-          width: 85%;
-          margin: 0 auto;
-        }
-    
-        .service-container {
-          display: flex;
-          align-items: center;
-        }
-    
-        .service-image {
-          flex: 0 0 50%;
-          padding-right: 10px;
-        }
-    
-        .service-content {
-          flex: 0 0 50%;
-          padding-left: 10px;
-          border-left: 1px solid #000;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          /* Align content to the left */
-        }
-    
-        .arrow {
-          margin-bottom: 10px;
-          display: flex;
-          align-items: center;
-        }
-    
-        .arrow i {
-          margin-right: 5px;
-        }
-    
-        .circle {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 20px;
-          height: 20px;
-          border-radius: 50%;
-          background-color: #000;
-          margin-right: 5px;
-        }
-    
-        .divider {
-          margin: 10px 0;
-          height: 1px;
-          background-color: #000;
-          width: calc(80% + 10px);
-          /* 線條長度略大於內文的寬度 */
-          margin-left: -5px;
-          /* 調整線條位置以與內文對齊 */
-        }
-      </style>
-    
-    
-      
-    
-      <!-- 工程實績-->
-      <section id="project" class="section-padding white-bg">
-        <div class="container text-center">
-          <p class="page-title-alt color mb-10" style="font-size: 12px; color:rgb(207, 13, 13);  font-weight: bolder; font-family: 'Open Sans', sans-serif;line-height: 1.3;
-          margin-bottom: 15px;
-          letter-spacing: 1.5px;">PROJECT PERFORMANCE</P>
-          <h2 class="page-title mb-25" style="font-size: 36px;font-weight: 800;font-family: 'Raleway', sans-serif;
-          font-weight: 700;
-          margin-top: 0px;
-          line-height: 1.3;
-          margin-bottom: 15px;
-          letter-spacing: 1.5px;">工程實績</h2>
-          <p class="mb-35" style="font-family: 'Open Sans', sans-serif;
-          font-size: 17px;
-          line-height: 1.6;
-          font-weight: 400;
-          margin-bottom: 15px;
-          margin-top: 0px;">六合為提升所有出口產業供應鏈的國際競爭力，在中國、越南、印尼、日本等亞洲地區不斷展開跨境合作，建立起安全可靠的平台，幫助您的產品走向世界。</p>
         </div>
-      </section>
-      <section id="project" class="section-padding white-bg">
-        <div class="containertext-center">
-          <div class="row">
-            <div class="media">
-              <div class="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QOgdCp6I-Oo"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="buyandsell">
+          <h3><img src="./img/car.png" width="30px" height="30px">出口流程（FOB、CIF、DDP、DDU）</h3>
+        </div>
+        <div class="import-aboutpic2">
+          <img src="./img/export2.png" width="60%" height="auto">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="black-block" style=" display: flex; align-items: center;">
+    <div style="float:left;margin-left: 35%;">
+      <h4>您有進出口整合服務需求?</h4>
+    </div>
+    <div style="margin-left: 0%;"><a href="#" class="contact-btn text-nowrap ">聯絡我們</a></div>
+  </div>
+  <!--buyandsell_end-->
+
+
+
+
+  <!-- 工程實績-->
+  <div id="performance" style="height: 80px;"></div>
+  <section id="project" class="section-padding white-bg">
+    <div class="container text-center">
+      <p class="page-title-alt color mb-10" style="font-size: 12px; color:rgb(207, 13, 13);  font-weight: bolder; font-family: 'Open Sans', sans-serif;line-height: 1.3;
+      margin-bottom: 15px;
+      letter-spacing: 1.5px;">PROJECT PERFORMANCE</P>
+      <h2 class="page-title mb-25" style="font-size: 36px;font-weight: 800;font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin-top: 0px;
+      line-height: 1.3;
+      margin-bottom: 15px;
+      letter-spacing: 1.5px;">工程實績</h2>
+      <p class="mb-35" style="font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      font-weight: 400;
+      margin-bottom: 15px;
+      margin-top: 0px;">六合為提升所有出口產業供應鏈的國際競爭力，在中國、越南、印尼、日本等亞洲地區不斷展開跨境合作，建立起安全可靠的平台，幫助您的產品走向世界。
+      </p>
+    </div>
+  </section>
+
+  <section id="project" class="section-padding white-bg">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="media">
+            <div class="video">
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/QOgdCp6I-Oo" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
             </div>
           </div>
-          <div class="spacer-45"></div>
-          <div class="row">
-            <div class="col-10">
-              <!-- 第二個輪播圖的HTML代碼 -->
-              <div class="slideshow-container">
-                <div class="mySlides fade">
-                  <img src="./img/07.jpg" style="width:100%">
-                </div>
-    
-                <div class="mySlides fade">
-                  <img src="./img/08.jpg" style="width:100%">
-                </div>
-    
-                <div class="mySlides fade">
-                  <img src="./img/09.jpg" style="width:100%">
-                </div>
-    
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              </div>
-              <br>
-    
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-              </div>
-              <div class="spacer-45"></div>
-              <div class="spacer-45"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--工程實績-->
-      <!--聯絡我們-->
-      <div class="call six sum" style="background-color:rgb(55, 50, 50);">
-        <section id="project" class="section-padding white-bg">
-          <div class="container text-center">
-            <p class="page-title-alt color mb-10" style="font-size: 12px; color:rgb(207, 13, 13);  font-weight: bolder; font-family: 'Open Sans', sans-serif;line-height: 1.3;
-                    margin-bottom: 15px;
-                    letter-spacing: 1.5px;
-                    padding-top: 8%;">CONTACT US</P>
-            <h2 class="page-title mb-25" style="font-size: 36px;font-weight: 800;font-family: 'Raleway', sans-serif;
-                    font-weight: 700;
-                    color: #ffffff;
-                    margin-top: 0px;
-                    line-height: 1.3;
-                    padding-bottom: 5%;
-                    letter-spacing: 1.5px;">聯絡六合</h2>
-            <!--表單-->
-            <div class="form-container">
-              <div class="input-section">
-                <div class="input-field">
-                  <input type="text" id="name" name="name" placeholder="姓名" style="font-size: 12px; padding: 12px;">
-                </div>
-                <div class="input-field">
-                  <input type="email" id="email" name="email" placeholder="E-mail" style="font-size: 12px; padding: 12px;">
-                </div>
-                <div class="input-field">
-                  <input type="text" id="phone" name="phone" placeholder="連絡電話" style="font-size: 12px; padding: 12px;">
-                </div>
-              </div>
-              <div class="textarea-section">
-                <textarea id="message" name="message" placeholder="內容" style="font-size: 12px; padding: 12px;"></textarea>
-              </div>
-            </div>
-            <div class="button-container">
-              <button class="submit-button">送出</button>
-            </div>
-            <!--表單-->
-            <br><br><br>
-          </div>
-        </section>
-      </div>
-      <!--聯絡我們-->
-      <!--地圖-->
-      <div id="map" style="height: 400px; width: auto"></div>
-      <!--地圖-->
-      <!--聯絡資訊-->
-      <section id="project" class="section-padding white-bg">
-        <div class="container text-center">
-          <div class="contact-info" style="margin-top: 6%; margin-bottom: 15%;">
-            <div class="contact-section">
-              <i class="fas fa-map-marker-alt"></i>
-              <h3 style="font-size: 14px; margin: 5%;">地址</h3>
-              <p style="font-size: 16.5px;"><a href="https://www.google.com/maps/search/?api=1&query=六合企業社"
-                  target="_blank">桃園市蘆竹區<br>富國路三段1371-1號</a></p>
-            </div>
-    
-            <div class="contact-section">
-              <i class="fas fa-phone"></i>
-              <h3 style="font-size: 14px; margin: 5%;">電話</h3>
-              <p style="font-size: 16.5px; margin-bottom: 0%;"><a href="tel:+88633216766">+886 3-321-6766</a></p>
-              <p style="font-size: 16.5px;">國際部：#111<br>起重部：#222<br>木箱部：#333</p>
-            </div>
-    
-            <div class="contact-section">
-              <i class="fas fa-print"></i>
-              <h3 style="font-size: 14px; margin: 5%;">傳真</h3>
-              <p style="font-size: 16.5px;">+886 3-322-9228</p>
-            </div>
-    
-            <div class="contact-section">
-              <i class="fas fa-envelope"></i>
-              <h3 style="font-size: 14px; margin: 5%;">E-mail</h3>
-              <p style="font-size: 16.5px;"><a href="mailto:haoru@liuhegsm.com">haoru@liuhegsm.com</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--聯絡資訊-->
-    
-      <!-- 其他网页内容 -->
-    
-    
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <footer class="footer">
-              <div class="footer-content">
-                <div class="footer-row">
-                  <img src="img/logo-dark.png" alt="Footer Logo">
-                </div>
-                <div class="footer-row">
-                  <p>
-                    © 2019 <strong><a href="#" class="footer-link">六合 LIU HE 進出口服務整合</a></strong>. 版權所有.
-                  </p>
-                </div>
-                <div class="footer-row">
-                  <a href="#" class="footer-icon-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="gray" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg>
-                  </a>
-                  <a href="#" class="footer-icon-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="gray" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </footer>
-          </div>
         </div>
       </div>
-    
-    
-      
-      <script src="script.js"></script>
-      <script>
+    </div>
 
-        /*輪播圖(錯誤)*/
-        /*地圖*/
-        function initMap() {
-          var location = { lat: 25.003730, lng: 121.300151 }; // 將地點的經緯度設定在這裡
-    
-          var map = new google.maps.Map(document.getElementById("map"), {
-            center: location,
-            zoom: 15,
-            mapTypeControl: true,
-            fullscreenControl: true,
-            zoomControl: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          });
-    
-          var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-            title: "富國路三段1405巷, 桃園, 桃園市"
-          });
-        }
-        /*地圖*/
-        /*許*/
-       
+
+    <div class="spacer-45"></div>
+
+  </section>
+  <!--工程實績-->
+  <!--聯絡我們-->
+  <div id="contact" style="height: 15px;"></div>
+  <div class="call six sum" style="background-color:rgb(55, 50, 50);">
+    <section id="project" class="section-padding white-bg">
+      <div class="container text-center">
+        <p class="page-title-alt color mb-10" style="font-size: 12px; color:rgb(207, 13, 13);  font-weight: bolder; font-family: 'Open Sans', sans-serif;line-height: 1.3;
+                margin-bottom: 15px;
+                letter-spacing: 1.5px;
+                padding-top: 8%;">CONTACT US</P>
+        <h2 class="page-title mb-25" style="font-size: 36px;font-weight: 800;font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                color: #ffffff;
+                margin-top: 0px;
+                line-height: 1.3;
+                padding-bottom: 5%;
+                letter-spacing: 1.5px;">聯絡六合</h2>
+        <!--表單-->
+        <div class="form-container">
+          <div class="input-section">
+            <div class="input-field">
+              <input type="text" id="name" name="name" placeholder="姓名" style="font-size: 12px; padding: 12px;">
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" name="email" placeholder="E-mail" style="font-size: 12px; padding: 12px;">
+            </div>
+            <div class="input-field">
+              <input type="text" id="phone" name="phone" placeholder="連絡電話" style="font-size: 12px; padding: 12px;">
+            </div>
+          </div>
+          <div class="textarea-section">
+            <textarea id="message" name="message" placeholder="內容" style="font-size: 12px; padding: 12px;"></textarea>
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="submit-button">送出</button>
+        </div>
+        <!--表單-->
+        <br><br><br>
+      </div>
+    </section>
+  </div>
+  <!--聯絡我們-->
+  <!--地圖-->
+  <div id="map" style="height: 400px; width: auto"></div>
+  <!--地圖-->
+  <!--聯絡資訊-->
+  <section id="project" class="section-padding white-bg">
+    <div class="container text-center">
+      <div class="contact-info" style="margin-top: 6%; margin-bottom: 15%;">
+        <div class="contact-section">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3 style="font-size: 14px; margin: 5%;">地址</h3>
+          <p style="font-size: 16.5px;"><a href="https://www.google.com/maps/search/?api=1&query=六合企業社"
+              target="_blank">桃園市蘆竹區<br>富國路三段1371-1號</a></p>
+        </div>
+
+        <div class="contact-section">
+          <i class="fas fa-phone"></i>
+          <h3 style="font-size: 14px; margin: 5%;">電話</h3>
+          <p style="font-size: 16.5px; margin-bottom: 0%;"><a href="tel:+88633216766">+886 3-321-6766</a></p>
+          <p style="font-size: 16.5px;">國際部：#111<br>起重部：#222<br>木箱部：#333</p>
+        </div>
+
+        <div class="contact-section">
+          <i class="fas fa-print"></i>
+          <h3 style="font-size: 14px; margin: 5%;">傳真</h3>
+          <p style="font-size: 16.5px;">+886 3-322-9228</p>
+        </div>
+
+        <div class="contact-section">
+          <i class="fas fa-envelope"></i>
+          <h3 style="font-size: 14px; margin: 5%;">E-mail</h3>
+          <p style="font-size: 16.5px;"><a href="mailto:haoru@liuhegsm.com">haoru@liuhegsm.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--聯絡資訊-->
+
+  <!-- 其他网页内容 -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-row">
+              <img src="img/logo-dark.png" alt="Footer Logo">
+            </div>
+            <div class="footer-row">
+              <p>
+                © 2019 <strong><a href="#" class="footer-link">六合 LIU HE 進出口服務整合</a></strong>. 版權所有.
+              </p>
+            </div>
+            <div class="footer-row">
+              <a href="#" class="footer-icon-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="gray" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </a>
+              <a href="#" class="footer-icon-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="gray" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+  <script>
+    /*script許*/
+    /*輪播圖(錯誤)*/
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+
+    /*輪播圖(錯誤)*/
+    /*地圖*/
+    function initMap() {
+      var location = {
+        lat: 25.003730,
+        lng: 121.300151
+      }; // 將地點的經緯度設定在這裡
+
+      var map = new google.maps.Map(document.getElementById("map"), {
+        center: location,
+        zoom: 15,
+        mapTypeControl: true,
+        fullscreenControl: true,
+        zoomControl: true,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "富國路三段1405巷, 桃園, 桃園市"
+      });
+    }
+    /*地圖*/
+    /*許*/
   </script>
-    
-      <!--地圖(API的部分要信用卡)-->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs5_EbKS08SdvSF9VCYIRWe5UBzH6cZmo&callback=initMap"
-        async defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+  <script>
+    $(document).ready(function () {
+      // Header transition
+      var header = $(".header");
+      var logo = $(".logo");
+      var nav = $(".nav");
+      var headerHeight = header.height();
+      var dropdownIcon = $("#dropdownIcon");
+      var dropdownMenu = $("#dropdownMenu");
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
-        <script>
-          $(document).ready(function() {
-            // Header transition
-            var header = $(".header");
-            var logo = $(".logo");
-            var nav = $(".nav");
-            var headerHeight = header.height();
-            var dropdownIcon = $("#dropdownIcon");
-            var dropdownMenu = $("#dropdownMenu");
-      
-            $(window).scroll(function() {
-              if ($(this).scrollTop() > headerHeight) {
-                header.addClass("header-scroll");
-                logo.addClass("logo-scroll");
-                nav.addClass("nav-scroll");
-              } 
-              else {
-                header.removeClass("header-scroll");
-                logo.removeClass("logo-scroll");
-                nav.removeClass("nav-scroll");
-              }
-            });
-      
-            // 获取导航栏中的相关元素
-            var dropdownIcon = $("#dropdownIcon");
-            var dropdownMenu = $("#dropdownMenu");
-      
-            dropdownIcon.click(function() {
-            toggleDropdown();
-            });
-      
-            function toggleDropdown() {
-              dropdownMenu.toggle();
-            }
-      
-            // 点击其他位置关闭下拉菜单
-            $(document).click(function(event) {
-              if (!$(event.target).closest(dropdownIcon).length) {
-                dropdownMenu.hide();
-              }
-            });
-                $('.owl-carousel').owlCarousel({
-                  items: 1,
-                  loop: true,
-                  autoplay: true,
-                  autoplayTimeout: 3000,
-                  autoplayHoverPause: true,
-                  animateOut: 'fadeOut',
-                  dots: true
-                });
-          });
-          // 获取导航栏中的相关元素
-      </script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > headerHeight) {
+          header.addClass("header-scroll");
+          logo.addClass("logo-scroll");
+          nav.addClass("nav-scroll");
+        } else {
+          header.removeClass("header-scroll");
+          logo.removeClass("logo-scroll");
+          nav.removeClass("nav-scroll");
+        }
+      });
+
+      // 获取导航栏中的相关元素
+      var dropdownIcon = $("#dropdownIcon");
+      var dropdownMenu = $("#dropdownMenu");
+
+      dropdownIcon.click(function () {
+        toggleDropdown();
+      });
+
+      function toggleDropdown() {
+        dropdownMenu.toggle();
+      }
+
+      // 点击其他位置关闭下拉菜单
+      $(document).click(function (event) {
+        if (!$(event.target).closest(dropdownIcon).length) {
+          dropdownMenu.hide();
+        }
+      });
+
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        animateOut: 'fadeOut',
+        dots: true
+      });
+    });
+  </script>
+
+  <!--地圖(API的部分要信用卡)-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs5_EbKS08SdvSF9VCYIRWe5UBzH6cZmo&callback=initMap"
+    async defer></script>
+
+</body>
+
+</html>
