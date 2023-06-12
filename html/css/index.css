@@ -2,8 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  height: 100%; /* 将高度设置为100% */
+  height: 100%;
+  /* 将高度设置为100% */
 }
+
 .header {
   padding: 10px;
   background-color: transparent;
@@ -15,6 +17,7 @@ body {
   transition: transform 0.5s ease-in-out;
   z-index: 999;
 }
+
 .header-scroll {
   background-color: rgba(194, 40, 40, 0.795);
 }
@@ -28,9 +31,8 @@ body {
   font-size: 20px;
 }
 
-.header-scroll .nav a {
-  margin-left: 5px;
-}
+
+
 .logo {
   display: flex;
   align-items: center;
@@ -45,40 +47,30 @@ body {
   margin-top: 15px;
   transition: all 0.5s ease-in-out;
 }
+
 .logo h1 {
   margin: 0;
   font-size: 24px;
   transition: all 0.5s ease-in-out;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: -30px;
-  transition: all 0.5s ease-in-out;
-}
 
-.nav a {
-  margin-left: 15px;
-  text-decoration: none;
-  margin-right: 10px;
-  color: rgb(245, 243, 243);
-  font-weight: bold;
-  transition: all 0.5s ease-in-out;
-}
+
 
 .owl-carousel {
   position: relative;
   height: 100%;
-  margin-top: 0; /* 将 margin-top 设置为0 */
+  margin-top: 0;
+  /* 将 margin-top 设置为0 */
 }
+
 .owl-carousel .item {
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
+
 .owl-carousel .item img {
   position: absolute;
   top: 50%;
@@ -130,10 +122,12 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
 .owl-carousel .item .content {
   text-align: center;
   color: #fff;
 }
+
 .owl-carousel .item .content h1 {
   font-size: 32px;
   margin-bottom: 10px;
@@ -153,6 +147,7 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
+
 .owl-carousel .item .content .contact-btn:hover {
   background-color: #b30000;
 }
@@ -168,171 +163,97 @@ body {
   margin-left: 63%;
   margin-top: -5%;
 }
+
 .black-block .contact-btn:hover {
   background-color: #b30000;
 }
 
-.nav-icon 
-{
-  cursor: pointer;
-  font-size: 24px;
-}
-.nav-icon i 
-{
-  transition: transform 0.3s ease-in-out;
-}
-.nav-dropdown 
-{
-  pointer-events: auto;
-  position: absolute;
-  background-color: gray;
-  width: 100%;
-  padding: 0px;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  margin-top: 65px;
-}
-    
-.nav-dropdown a 
-{
-  display: block;
-  color: white;
-  text-decoration: none;
-  background-color: lightgray;
-  padding: 0px;
-  margin-bottom: 5px;
+
+
+.buyandsell {
   text-align: center;
 }
-.nav-dropdown a:nth-child(even) 
-{
-  background-color: white;
-}
-    
-.nav-dropdown a:hover 
-{
-  background-color: darkred;
-}
-.nav-dropdown,
-.nav-icon:hover + .nav-dropdown {
-  display: block;
-}
 
-@media (max-width: 768px) 
-{
-      .nav-icon {
-        display: block;
-      }
+.buyandsell p
 
-      .nav {
-        flex-wrap: wrap;
-      }
-
-      .nav > a {
-        display: none;
-      }
-      .nav-dropdown {
-        
-        position: fixed;
-        background-color: gray;
-        width: 100%;
-        left: 0;
-        right: 0;
-        top: 10%;
-      }
-
-      .nav-dropdown a {
-        display: block;
-        color: white;
-        background-color: gray;
-        padding: 10px; /* 將 padding 移至這裡 */
-        margin-bottom: 5px;
-      }
-    
-      .nav-dropdown a:nth-child(even) {
-        background-color: rgb(99, 96, 96);
-      }
-}
-@media (min-width: 769px) 
-{
-      .nav-dropdown {
-        display: none !important;
-      }
-      .nav-icon
-      {
-        display: none !important;
-      }
-}
-
-.buyandsell
-{
-  text-align: center;
-}
-.buyandsell p /*英文字*/
-{
+/*英文字*/
+  {
   color: #f60f0f;
-  
+
   font-weight: bolder;
   font-size: 13px;
   text-align: center;
   margin-top: 10%;
 }
-.buyandsell h2 /*中文字*/
-{
+
+.buyandsell h2
+
+/*中文字*/
+  {
   color: #000;
   font-weight: bolder;
-  
+
   font-size: 36px;
   text-align: center;
 }
-.buyandsell h6 /*文章內容*/
-{
- 
+
+.buyandsell h6
+
+/*文章內容*/
+  {
+
   text-align: center;
 }
 
-.buyandsell hr /*灰色底線*/
-{
-  font-family: Avenir, sans-serif; 
-  border-right-width: 0px; 
-  border-bottom-width: 0px; 
-  border-left-width: 0px; 
-  border-top-style: solid; 
-  border-top-color: rgb(234, 234, 234); 
-  height:1px; 
+.buyandsell hr
+
+/*灰色底線*/
+  {
+  font-family: Avenir, sans-serif;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgb(234, 234, 234);
+  height: 1px;
   width: 120%;
-  margin: 1em 0px; 
-  padding: 0px; 
-  color: rgb(51, 51, 51); 
-  font-size: 17px; 
+  margin: 1em 0px;
+  padding: 0px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
   white-space: normal;
-  
+
 }
 
-.export-middle-service hr /*灰色底線*/
-{
-  font-family: Avenir, sans-serif; 
-  border-right-width: 0px; 
-  border-bottom-width: 0px; 
-  border-left-width: 0px; 
-  border-top-style: solid; 
-  border-top-color: rgb(234, 234, 234); 
-  height:1px; 
+.export-middle-service hr
+
+/*灰色底線*/
+  {
+  font-family: Avenir, sans-serif;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgb(234, 234, 234);
+  height: 1px;
   width: 120%;
-  margin: 1em 0px; 
-  padding: 0px; 
-  color: rgb(51, 51, 51); 
-  font-size: 17px; 
+  margin: 1em 0px;
+  padding: 0px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
   white-space: normal;
-  
+
 }
-.buyandsell img{ /*車子圖片*/
-  
+
+.buyandsell img {
+  /*車子圖片*/
+
   margin-right: 5%;
- 
+
 }
 
-.buyandsell  h3{ /*車子旁邊文字*/
+.buyandsell h3 {
+  /*車子旁邊文字*/
   font-size: 24px;
   margin-bottom: 10%;
   font-weight: bolder;
@@ -340,180 +261,161 @@ body {
 }
 
 
-.import
-{
+.import {
   max-width: 100%;
   margin-top: -5%;
 }
-.buyer /*灰色色塊*/
-{
-width:15%;
-height:auto;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
 
 
-}
-.export-service h3{
+
+
+.export-service h3 {
   font-size: 24px;
   margin-bottom: 10%;
   font-weight: bolder;
   color: red;
   margin-left: 40%;
 }
-.export-service img{ /*車子圖片*/
-  
+
+.export-service img {
+  /*車子圖片*/
+
   margin-right: 5%;
- 
-}
-
-.buyer h6
-{
-  padding: 5%;
-}
-.buyandsellpic img{ /*中間圖片*/
-    margin-left: 35%;
-    margin-top: -15%;
-    
-}
-.seller{  /*灰色色塊*/
-width:15%;
-height:auto;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 80%;
-margin-top: -12%;
 
 }
-.seller h6{ /*色塊內文字*/
-  padding: 5%;
-}
-.buyandsell hr /*灰色底線*/
-{
-  font-family: Avenir, sans-serif; 
-  border-right-width: 0px; 
-  border-bottom-width: 0px; 
-  border-left-width: 0px; 
-  border-top-style: solid; 
-  border-top-color: rgb(234, 234, 234); 
-  height:1px; 
+
+
+
+
+
+
+
+
+.buyandsell hr
+
+/*灰色底線*/
+  {
+  font-family: Avenir, sans-serif;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgb(234, 234, 234);
+  height: 1px;
   width: 120%;
-  margin: 1em 0px; 
-  padding: 0px; 
-  color: rgb(51, 51, 51); 
-  font-size: 17px; 
+  margin: 1em 0px;
+  padding: 0px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
   white-space: normal;
 }
-.up-service hr
-{
-  font-family: Avenir, sans-serif; 
-  border-right-width: 0px; 
-  border-bottom-width: 0px; 
-  border-left-width: 0px; 
-  border-top-style: solid; 
-  border-top-color: rgb(234, 234, 234); 
-  height:1px; 
+
+
+
+.down-service hr {
+  font-family: Avenir, sans-serif;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgb(234, 234, 234);
+  height: 1px;
   width: 120%;
-  margin: 1em 0px; 
-  padding: 0px; 
-  color: rgb(51, 51, 51); 
-  font-size: 17px; 
+  margin: 1em 0px;
+  padding: 0px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
   white-space: normal;
   margin-top: 10%;
 }
-.down-service hr
-{
-  font-family: Avenir, sans-serif; 
-  border-right-width: 0px; 
-  border-bottom-width: 0px; 
-  border-left-width: 0px; 
-  border-top-style: solid; 
-  border-top-color: rgb(234, 234, 234); 
-  height:1px; 
-  width: 120%;
-  margin: 1em 0px; 
-  padding: 0px; 
-  color: rgb(51, 51, 51); 
-  font-size: 17px; 
-  white-space: normal;
-  margin-top: 10%;
-}
-.export img{ /*車子圖片*/
+
+.export img {
+  /*車子圖片*/
   margin-left: 48%;
-  margin-right:5%
-  
+  margin-right: 5%
 }
 
-.export  h3{ /*車子旁邊文字*/
+.export h3 {
+  /*車子旁邊文字*/
   font-size: 24px;
- 
+
   font-weight: bolder;
   color: red;
-  
+
 }
 
-.reduce /*灰色色塊*/
-{
-width:30%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 15%;
-margin-top: 3%;
-}
-.reduce h5{
-  padding: 5%;
-  padding-left: 15%;
-}
-.onestep /*灰色色塊*/
-{
-  width:30%;
-  height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 15%;
-margin-top: 3%;
+.reduce
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 15%;
+  margin-top: 3%;
 }
 
-.onestep h5{
+.reduce h5 {
   padding: 5%;
   padding-left: 15%;
 }
-.follow /*灰色色塊*/
-{
-  width:30%;
-  height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 15%;
-margin-top: 3%;
+
+.onestep
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 15%;
+  margin-top: 3%;
 }
-.follow h5{
+
+.onestep h5 {
   padding: 5%;
   padding-left: 15%;
 }
-.packing /*灰色色塊*/
-{
-  width:30%;
-  height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 15%;
-margin-top: 3%;
+
+.follow
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 15%;
+  margin-top: 3%;
 }
-.packing h5{
+
+.follow h5 {
+  padding: 5%;
+  padding-left: 15%;
+}
+
+.packing
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.packing h5 {
   padding: 5%;
   padding-left: 15%;
 }
@@ -528,49 +430,49 @@ margin-top: 3%;
   margin-bottom: 10px;
 }
 
-.aboutpic{
-   margin-left: 55%;
-   margin-top: -30%;
-  
+.aboutpic {
+  margin-left: 55%;
+  margin-top: -30%;
+
 }
-.import-aboutpic{
+
+.import-aboutpic {
   margin-left: 55%;
   margin-top: -25%;
- 
+
 }
-.import-aboutpic2
-{
-  margin-left:35% ;
+
+.import-aboutpic2 {
+  margin-left: 35%;
   margin-top: -5%;
 }
-.export-aboutpic
-{
+
+.export-aboutpic {
   margin-left: -5%;
   margin-right: 55%;
   margin-top: -2%;
   margin-bottom: 10%;
-  
+
 }
 
-.black-block
-{
+.black-block {
 
   height: 140px;
   background-color: #000;
   width: 100%;
   margin-bottom: 5%;
   margin-top: 5%;
- 
+
 }
-.black-block h4
-{
+
+.black-block h4 {
   text-align: center;
   color: white;
   padding-top: 3.5%;
 }
-.black-block .contact-btn{
 
-}
+.black-block .contact-btn {}
+
 .footer-link {
   color: #000;
   font-weight: bold;
@@ -600,141 +502,140 @@ margin-top: 3%;
   fill: rgba(194, 40, 40);
 }
 
-.about
-{
+.about {
   color: red;
   left: 15%;
   position: relative;
 }
 
-.export-down-service>.reduce /*灰色色塊*/
-{
-width:30%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 10%;
-margin-top: 3%;
+.export-down-service>.reduce
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 10%;
+  margin-top: 3%;
 }
-.export-down-service>.follow /*灰色色塊*/
-{
-width:30%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 10%;
-margin-top: 3%;
+
+.export-down-service>.follow
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 10%;
+  margin-top: 3%;
 }
-.upgrade h5{
+
+.upgrade h5 {
   padding: 5%;
   padding-left: 15%;
 }
-.carry h5{
+
+.carry h5 {
   padding: 5%;
   padding-left: 15%;
 }
-.export-down-service>.packing /*灰色色塊*/
-{
-width:30%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 10%;
-margin-top: 3%;
+
+.export-down-service>.packing
+
+/*灰色色塊*/
+  {
+  width: 30%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 
-.export-middle-service>.reduce /*灰色色塊*/
-{
-width:35%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 55%;
-margin-top: -40%;
+.export-middle-service>.reduce
+
+/*灰色色塊*/
+  {
+  width: 35%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 55%;
+  margin-top: -40%;
 }
-.export-middle-service>.upgrade /*灰色色塊*/
-{
-width:35%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 55%;
-margin-top: 3%;
+
+.export-middle-service>.upgrade
+
+/*灰色色塊*/
+  {
+  width: 35%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 55%;
+  margin-top: 3%;
 }
-.export-middle-service>.carry /*灰色色塊*/
-{
-width:35%;
-height:25%;
-background: -webkit-linear-gradient(left,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -o-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: -moz-linear-gradient(right,rgb(240, 240, 236),rgb(168, 164, 164));
-background: linear-gradientto(to right,rgb(240, 240, 236),rgb(168, 164, 164));
-margin-left: 55%;
-margin-top: 3%;
-margin-bottom: 10%;
+
+.export-middle-service>.carry
+
+/*灰色色塊*/
+  {
+  width: 35%;
+  height: 25%;
+  background: -webkit-linear-gradient(left, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -o-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: -moz-linear-gradient(right, rgb(240, 240, 236), rgb(168, 164, 164));
+  background: linear-gradientto(to right, rgb(240, 240, 236), rgb(168, 164, 164));
+  margin-left: 55%;
+  margin-top: 3%;
+  margin-bottom: 10%;
 }
 
 /*許*/
 /*影片*/
-.media {
-  width: 1140px;
-  height: 460px;
-  position: relative;
-  /* Allows for absolute positioning of iframe */
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.video {
+.media {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+}
+
+.video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
   height: 100%;
 }
 
-.video iframe {
-  padding-left: 26%;
-  padding-right: 26%;
-
+.video-container iframe {
+  width: 100%;
+  height: 100%;
 }
 
-@media (max-width: 1200px) {
-  .media {
-    width: 960px;
-    height: 385px;
-  }
-}
 
-@media (max-width: 992px) {
-  .media {
-    width: 720px;
-    height: 285px;
-  }
-}
 
-@media (max-width: 768px) {
-  .media {
-    width: 540px;
-    height: 255px;
-  }
-}
 
-@media (max-width: 575px) {
-  .media {
-    width: 100%;
-    /* Video takes full width of screen */
-    height: 0;
-    /* Set height to 0 */
-    padding-top: 56.25%;
-    /* Aspect ratio of 16:9 */
-  }
-}
 
 /*影片*/
 /*輸入表單*/
@@ -743,6 +644,7 @@ margin-bottom: 10%;
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .input-section {
@@ -805,9 +707,7 @@ margin-bottom: 10%;
 }
 
 @media (max-width: 768px) {
-  .form-container {
-    flex-direction: column;
-  }
+
 
   .input-field,
   .textarea-section {
@@ -893,6 +793,114 @@ margin-bottom: 10%;
   }
 }
 
-/*聯絡資訊*/
 
-/*許*/
+
+.header-scroll .nav a {
+  margin-left: 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgb(245, 243, 243);
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.nav-icon i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-dropdown {
+  pointer-events: auto;
+  position: absolute;
+  background-color: gray;
+  width: 100%;
+  padding: 0px;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  margin-top: 65px;
+}
+
+.nav-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: lightgray;
+  padding: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.nav-dropdown a:nth-child(even) {
+  background-color: white;
+}
+
+.nav-dropdown a:hover {
+  background-color: darkred;
+}
+
+
+.nav-dropdown,
+.nav-icon:hover+.nav-dropdown {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .nav-icon {
+    display: block;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav>a {
+    display: none;
+  }
+
+
+  .nav-dropdown {
+
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 10%;
+  }
+
+  .nav-dropdown a {
+    display: block;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    /* 將 padding 移至這裡 */
+    margin-bottom: 5px;
+  }
+
+  .nav-dropdown a:nth-child(even) {
+    background-color: rgb(99, 96, 96);
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-dropdown {
+    display: none !important;
+  }
+}
